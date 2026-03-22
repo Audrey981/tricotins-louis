@@ -10,8 +10,8 @@ body
 }
 
 header {
-  background-color:  #2f2559; 
-  color: #ffffff;
+  background-color:  #66fcf1; 
+  color: black;
 }
 
 
@@ -58,7 +58,7 @@ a.bouton-clair {
 
 .main-text {
   font-size: 42px;
-  color: #f9faf8; 
+  color: black; 
   font-weight: 900;
   margin: 0;
 }
@@ -71,7 +71,7 @@ h1 {
 
 .secondary-text {
   font-size: inherit;
-  color: #e5e7eb;
+  color: black;
   margin: 0;
 }
 
@@ -98,8 +98,8 @@ h1 {
 
 
 .bouton-fonce {
-  background-color: #3a2d6f;
-  color: #ffffff;
+  background-color: #66fcf1;
+  color: black;
   margin: 20px;
   font-weight: 800;
   border-radius: 20px;
@@ -112,7 +112,7 @@ h1 {
 }
 
 .bouton-fonce:hover {
-  background-color: #241c47; 
+  background-color: ; 
   border-color: #e8e6F2;
   box-shadow: 0 4px 10px rgba(0,0,0,0.25);
   transform: translateY(-2px);
@@ -248,7 +248,7 @@ h1 {
   max-width: 900px;
   margin: 80px auto;
   text-align: center;
-  background-color: #f2eef7;
+  background-color: #cafafe;
   color: #1f2937;
   border-radius: 10px;
 }
@@ -355,8 +355,8 @@ text-align: left;
 }
 
 .action {
-  background-color: #2f2559;
-  color: #ffffff;
+  background-color: #66fcf1;
+  color: black;
   display: flex;
   justify-content: center;
   gap: 5rem; 
@@ -385,7 +385,7 @@ text-align: left;
 }
 
 footer {
-  background-color:#f2eef7; 
+  background-color:#fc4445; 
   color: #1f2937;
   text-align: center;
   padding: 20px;
@@ -1107,7 +1107,7 @@ footer a{
 /* fil d'ariane */
 .breadcrumb {
   padding: 0.5rem 1rem;
-  background: #f8fafc;  /* Match ton hero */
+  background: #fc4445;
   font-size: 0.9rem;
   font-family: inherit;
 }
