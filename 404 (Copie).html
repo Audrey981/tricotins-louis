@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erreur 404 - Page introuvable | CJAL Multiservices</title>
+    <style>
+        /* Inspiré de ton site : tons terre, typo simple, responsive */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+            line-height: 1.6; color: #333; background: #2f2559; /* Beige clair comme tes fonds */
+            min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px;
+        }
+        .container { 
+            max-width: 800px; text-align: center; background: #f2eef7; padding: 60px 40px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); 
+        }
+        h1 { 
+            font-size: 4rem; color: black;  margin-bottom: 20px; font-weight: 700; 
+        }
+        .error-msg { 
+            font-size: 1.5rem; color: #666; margin-bottom: 30px; max-width: 600px; margin-left: auto; margin-right: auto;
+        }
+        .chantier-msg { 
+            font-size: 1.2rem; color: #444; margin-bottom: 40px; font-style: italic;
+        }
+        .cta-buttons { 
+            display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-bottom: 40px;
+        }
+        .btn { 
+            background: #3a2d6f;  color: white; padding: 15px 30px; text-decoration: none; 
+            border-radius: 8px; font-weight: 600; font-size: 1.1rem; transition: background 0.3s, transform 0.2s;
+        }
+        .btn:hover {  background-color: #241c47; 
+             border-color: #e8e6F2;
+              box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+                transform: translateY(-2px);
+}
+        .contact-info { 
+            font-size: 0.95rem; color: #777; border-top: 1px solid #eee; padding-top: 20px;
+        }
+        @media (max-width: 768px) { 
+            h1 { font-size: 3rem; } .container { padding: 40px 20px; } .cta-buttons { flex-direction: column; align-items: center; }
+        }
+        /* Icône chantier SVG */
+.error-icon {
+    width: 120px; height: 120px; margin: 0 auto 30px; display: block; border-radius: 10px;
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1)); /* Ombre légère comme ton style */
+}
+@media (max-width: 768px) {
+    .error-icon { width: 90px; height: 90px; }
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>404</h1>
+        <div class="error-msg">Page introuvable</div>
+        <img class="error-icon" src="images/minipelle.png">
+        </img>
+
+        <div class="chantier-msg">
+            Oups, ce chantier n’existe plus… ou n’a jamais été lancé. 
+            Pas de panique, on vous remet sur des fondations solides !
+        </div>
+        <div class="cta-buttons">
+            <a href="index.html" class="btn">Retour à l’accueil</a>
+            <a href="services.html" class="btn">Découvrir mes services</a>
+            <a href="contact.html" class="btn">Me contacter</a>
+        </div>
+        <div class="contact-info">
+            CJAL Multiservices • Christophe Daval • Massérac / Redon 
+        </div>
+    </div>
+</body>
+</html>
