@@ -7,10 +7,13 @@ body
   margin: 0;
   padding: 0;
   overflow-x: hidden; /*pas de scroll horizontal*/
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 header {
-  background-color:  #66fcf1; 
+  background-color:  #0be4d6; 
   color: black;
 }
 
@@ -112,7 +115,7 @@ h1 {
 }
 
 .bouton-fonce:hover {
-  background-color: ; 
+  
   border-color: #e8e6F2;
   box-shadow: 0 4px 10px rgba(0,0,0,0.25);
   transform: translateY(-2px);
@@ -662,6 +665,10 @@ footer a{
 
 
 /* page contact*/
+
+main {
+flex : 1;
+}
 
 .blocs {
   display: flex;
